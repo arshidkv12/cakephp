@@ -752,9 +752,12 @@ class Debugger
                 $reflectionProperties = $ref->getProperties($filter);
                 foreach ($reflectionProperties as $reflectionProperty) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8934f66291 (Fix PHP 8.5 deprecations: replace SplObjectStorage::contains() and remove ReflectionProperty::setAccessible())
+=======
+>>>>>>> af1d147079 (Update Debugger.php)
                     if (
                         method_exists($reflectionProperty, 'isInitialized') &&
                         !$reflectionProperty->isInitialized($var)
