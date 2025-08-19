@@ -40,9 +40,13 @@ jobs:
             db-type: 'sqlite'
             dependencies: highest
 <<<<<<< HEAD
+<<<<<<< HEAD
             composer-options: '--ignore-platform-req=php'
 =======
 >>>>>>> c4641e9c09 (Update ci.yml)
+=======
+            composer-options: '--ignore-platform-req=php'
+>>>>>>> 9401809fd5 (Temporarily ignore PHP version constraint for 8.5)
 
     services:
       redis:
