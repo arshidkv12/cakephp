@@ -19,6 +19,7 @@ namespace Cake\Collection;
 use ArrayIterator;
 use IteratorIterator;
 use SplFixedArray;
+use Cake\Utility\MacroableTrait;
 
 /**
  * A collection is an immutable list of elements with a handful of functions to
@@ -29,6 +30,7 @@ use SplFixedArray;
 class Collection extends IteratorIterator implements CollectionInterface
 {
     use CollectionTrait;
+    use MacroableTrait;
 
     /**
      * Whether or not the items in this collection are an array.
