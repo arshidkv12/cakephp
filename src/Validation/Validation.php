@@ -19,6 +19,7 @@ namespace Cake\Validation;
 use BackedEnum;
 use Cake\Chronos\ChronosDate;
 use Cake\Chronos\ChronosTime;
+use Cake\Utility\MacroableStaticTrait;
 use Cake\Core\Exception\CakeException;
 use Cake\I18n\DateTime;
 use Cake\Utility\Text;
@@ -39,6 +40,8 @@ use UnhandledMatchError;
  */
 class Validation
 {
+    use MacroableStaticTrait;
+    
     /**
      * Default locale
      *
